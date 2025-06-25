@@ -10,13 +10,17 @@ let sumEl = document.getElementById("sum-el")
 let messageEl = document.getElementById("message-el")
 let cardsEl =document.getElementById("cards-el")
 
+
+function getRandomCard() {
+    return 5
+}
+
 function startGame() {
     renderGame()
 }
 
 function renderGame() {
     cardsEl.textContent = "Cards: "
-    // Create a for loop that renders out all the cards instead of just two
     for (let i = 0; i < cards.length; i++) {
         cardsEl.textContent += cards[i] + " "
     }
@@ -37,7 +41,6 @@ function renderGame() {
 }
 
 function newCard() {
-    console.log("Works")
     let card = 1
     sum += card
     cards.push(card)

@@ -198,3 +198,32 @@ for (let i = 10; i < 101; i +=10) {
 for (let i = 0; i < messages.length; i++) {
     console.log(messages[i])
 }
+
+
+let player1Time = 102 
+let player2Time = 107
+let sameTime = console.log("Same time.")
+
+function getFastestRaceTime() {
+    if (player1Time < player2Time) {
+        return player1Time
+    } else if (player1Time > player2Time) {
+        return player2Time
+    } else {
+        return sameTime
+    }
+}
+
+let fastestRace = getFastestRaceTime()
+
+// Write a function that returns the total race time
+// Call/invoke the function and store the returned value in a new variable
+// Finally, log the variable out
+
+function getTotalRaceTime() {
+    return player1Time + player2Time
+}
+
+let totalRaceTime = getTotalRaceTime()
+
+console.log(totalRaceTime)
