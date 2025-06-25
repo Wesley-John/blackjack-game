@@ -15,3 +15,14 @@ h1 {
 #message-el {
     font-style: italic;
 }
+
+button {
+    background-color: goldenrod;
+    border: none;
+    font: inherit;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 150px;
+    color: #016f32;
+    border-radius: 2px;
+}
