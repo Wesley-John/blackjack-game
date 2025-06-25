@@ -227,3 +227,62 @@ function getTotalRaceTime() {
 let totalRaceTime = getTotalRaceTime()
 
 console.log(totalRaceTime)
+
+
+let randomNumber = Math.random()
+console.log(randomNumber)
+
+/* 
+
+What does Math.random() do?
+
+Your answer: Generates a random number between 0 and 1 not inclusive of 1
+
+*/
+let newRandomNumber = Math.random() * 6
+
+console.log(randomNumber)
+
+
+/* 
+
+In which range will our randomNumber be now?
+
+From: 0
+To: 5.999999 recurring
+
+*/
+
+
+let flooredNumber = Math.floor(3.45632)
+
+console.log(flooredNumber)
+
+
+/* 
+
+What does Math.floor() do to positive numbers?
+
+Your answer: Removes the decimals.
+
+*/
+let anotherRandomNumber = Math.floor( Math.random() * 6 ) + 1 //rannge is now 1 - 6 instead of 1 - 5
+
+console.log(randomNumber)
+
+/* 
+
+Write down all the possible values randomNumber can hold now!
+0
+1
+2
+3
+4
+5
+*/
+// Create a function, rollDice(), that returns a random number between 1 and 6
+
+function rollDice() {
+    let faceValue = Math.floor(Math.random() * 6) + 1
+    return faceValue
+}
