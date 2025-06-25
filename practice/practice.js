@@ -312,3 +312,17 @@ if (likesDocumentaries === true || likesStartups === true) {
 function recommendMovie() {
     console.log("Hey, check out this new film we think you will like!")
 }
+
+
+// Objects - store data in-depth - composite / complex data type
+// key-value pairs
+
+let course = {
+    title: "Learn CSS Grid for free",
+    lessons: 16,
+    length: 63,
+    creator: "Per Harald",
+    level: 2,
+    isFree: true,
+    tags: ["html", "css"]
+}
