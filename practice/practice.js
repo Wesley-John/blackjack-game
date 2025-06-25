@@ -176,3 +176,25 @@ messages.push(newMessage)
 console.log(messages)
 messages.pop()
 console.log(messages)
+
+for ( let count = 1;
+    //start
+    count < 11;
+    //finish
+     count += 2
+    //step size
+    ) {
+    console.log(count)
+}
+
+// Create a for loop that counts from 10 to 100 in steps of 10
+// Use console.log to log out the numbers
+
+for (let i = 10; i < 101; i +=10) {
+    console.log(i)
+}
+
+
+for (let i = 0; i < messages.length; i++) {
+    console.log(messages[i])
+}
