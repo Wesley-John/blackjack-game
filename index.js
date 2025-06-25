@@ -12,7 +12,15 @@ let cardsEl =document.getElementById("cards-el")
 
 
 function getRandomCard() {
-    return 5
+
+    let randomCardNumber = Math.floor(Math.random() * 13) + 1
+    if (randomCardNumber === 1) {
+        return 11
+    } else if (randomCardNumber > 10) {
+        return 10
+    } else {
+        return randomCardNumber
+    }
 }
 
 function startGame() {
