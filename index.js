@@ -25,3 +25,7 @@ function startGame() {
 
     messageEl.textContent = message
 }
+
+function newCard() {
+    console.log("Works")
+}
